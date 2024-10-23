@@ -26,12 +26,12 @@ let isPresent = true;
 let firstName = "Frodo";
 let lastName = "Baggins";
 
-console.log(typeof(num+str), num+str );
-console.log(typeof(num+str2), num+str2);
-console.log(typeof(num+isPresent) , num+isPresent);
-console.log(typeof(firstName+num), firstName+num);
-console.log(typeof(isPresent+str), isPresent+str);
-console.log(typeof(firstName+lastName), firstName+lastName);
+console.log(typeof(num+str), num+str );  // l111
+console.log(typeof(num+str2), num+str2); //11eleven
+console.log(typeof(num+isPresent) , num+isPresent); //12
+console.log(typeof(firstName+num), firstName+num); //Frodo11
+console.log(typeof(isPresent+str), isPresent+str); //true11
+console.log(typeof(firstName+lastName), firstName+lastName);  //FrodoBaggins
 
 // Exercise 3
 console.log("EXERCISE 3:\n==========\n");
@@ -41,14 +41,14 @@ let str3 = "5";
 let str4 = "five";
 let isAwake = false;
 
-console.log(val == str3);
-console.log(val === str3);
-console.log(!isAwake);
-console.log("eleven" == str4 && val >= str3);
-console.log(!isAwake || isAwake);
-console.log(0 == false);
-console.log(0 === false);
-console.log(0 != false);
-console.log(0 !== false);
+console.log(val == str3);  //true
+console.log(val === str3);  //false
+console.log(!isAwake);  //true
+console.log("eleven" == str4 && val >= str3);  //false
+console.log(!isAwake || isAwake);  //true
+console.log(0 == false);  //true
+console.log(0 === false); //false
+console.log(0 != false);  //false
+console.log(0 !== false); //true
 
 
